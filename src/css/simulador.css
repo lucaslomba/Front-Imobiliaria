@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(29, 29, 29) !important;
+}
+
+header{
+    height: 100vh;
+    background-image: url(../img/simulador.png);
+    background-size: cover;
+    background-position: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:vertical {
+    background-color: #ffffff;
+    -webkit-border-radius: 6px;
+  }
+
+.nav-link{
+    color: white!important;
+    font-size: 16pt!important;
+}
+
+.nav-link:hover{
+    color: #f1c412!important;
+    font-size: 16pt!important;
+}
+
+.dropdown-menu{
+    background-color: #343a40!important;
+}
+
+.dropdown-item{
+    color: white!important;
+    background-color: transparent!important;
+}
+
+.dropdown-item:hover{
+    color: #f1c412!important;
+    background-color: transparent!important;
+}
+
+.central-box{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bancos{
+    color: white;
+    font-size: 25pt;
+}
+
+.bancos:hover{
+    color: #f1c412;
+    font-size: 25pt;
+}
+
+
+@media (max-width: 600px) 
+{
+    h2{
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+}

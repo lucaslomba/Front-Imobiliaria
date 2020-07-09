@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(29, 29, 29) !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:vertical {
+    background-color: #ffffff;
+    -webkit-border-radius: 6px;
+  }
+
+.nav-link{
+    color: white!important;
+    font-size: 16pt!important;
+}
+
+.nav-link:hover{
+    color: #f1c412!important;
+    font-size: 16pt!important;
+}
+
+.dropdown-menu{
+    background-color: #343a40!important;
+}
+
+.dropdown-item{
+    color: white!important;
+    background-color: transparent!important;
+}
+
+.dropdown-item:hover{
+    color: #f1c412!important;
+    background-color: transparent!important;
+}
+
+.central-box{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow{
+    color: #f1c412;
+}
+
+.btn-buscar{
+    background-color: #f1c412;
+    color: black;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.btn-buscar:hover{
+    background-color: black;
+    color: #f1c412;
+    font-weight: 700;
+}
+
+#btn-filtro{
+    display: none;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.btn-more{
+    background-color: #f1c412;
+    color: black;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn-more:hover{
+    background-color: black;
+    color: #f1c412;
+    font-weight: 700;
+}
+form{
+    margin-top: 10px;
+    background-color: rgba(110, 110, 110, 0.582);
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%;
+}
+
+form label{
+    color: white;
+}
+
+form option{
+    color: black;
+}
+
+
+@media (max-width: 600px) 
+{
+    h2{
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+
+    #filtro{
+        display: none!important;
+    }
+
+    #btn-filtro{
+        display: block;
+    }
+}
