@@ -2,6 +2,12 @@ body{
     background-color: rgb(29, 29, 29) !important;
 }
 
+#black{
+    background-color: #343a40!important;
+    padding-right: 25px;
+    color: white;
+}
+
 header{
     height: 100vh;
     background-image: url(../img/simulador.png);
@@ -25,7 +31,7 @@ header{
 }
 
 .nav-link:hover{
-    color: #f1c412!important;
+    color: #004a6f!important;
     font-size: 16pt!important;
 }
 
@@ -39,7 +45,7 @@ header{
 }
 
 .dropdown-item:hover{
-    color: #f1c412!important;
+    color: #004a6f!important;
     background-color: transparent!important;
 }
 
@@ -58,7 +64,7 @@ header{
 }
 
 .bancos:hover{
-    color: #f1c412;
+    color: #004a6f;
     font-size: 25pt;
 }
 

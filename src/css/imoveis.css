@@ -1,6 +1,13 @@
 body{
     background-color: rgb(29, 29, 29) !important;
 }
+
+#black{
+    background-color: #343a40!important;
+    padding-right: 25px;
+    color: white;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -17,7 +24,7 @@ body{
 }
 
 .nav-link:hover{
-    color: #f1c412!important;
+    color: #004a6f!important;
     font-size: 16pt!important;
 }
 
@@ -31,7 +38,7 @@ body{
 }
 
 .dropdown-item:hover{
-    color: #f1c412!important;
+    color: #004a6f!important;
     background-color: transparent!important;
 }
 
@@ -44,19 +51,19 @@ body{
 }
 
 .yellow{
-    color: #f1c412;
+    color: white;
 }
 
 .btn-buscar{
-    background-color: #f1c412;
-    color: black;
+    background-color: #004a6f;
+    color: white;
     font-weight: 700;
     transition: 0.3s;
 }
 
 .btn-buscar:hover{
-    background-color: black;
-    color: #f1c412;
+    background-color: white;
+    color: #004a6f;
     font-weight: 700;
 }
 
@@ -69,8 +76,8 @@ body{
 }
 
 .btn-more{
-    background-color: #f1c412;
-    color: black;
+    background-color: #004a6f;
+    color: white;
     font-weight: 700;
     width: 100%;
     margin-top: 10px;
@@ -78,8 +85,8 @@ body{
 }
 
 .btn-more:hover{
-    background-color: black;
-    color: #f1c412;
+    background-color: white;
+    color: #004a6f;
     font-weight: 700;
 }
 form{
@@ -117,4 +124,5 @@ form option{
     #btn-filtro{
         display: block;
     }
+
 }

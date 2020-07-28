@@ -1,12 +1,33 @@
 body{
-    background-color: rgb(29, 29, 29) !important;
+    background-color: rgb(58, 58, 58) !important;
 }
 
-header{
+#black{
+    background-color: #343a40!important;
+    padding-right: 25px;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header, .divisor{
     height: 100vh;
     background-image: url(../img/bg.png);
     background-size: cover;
     background-position: center;
+}
+
+.divisor{
+    margin-top: 20px;
+    height: 90vh;
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 ::-webkit-scrollbar {
@@ -25,7 +46,7 @@ header{
 }
 
 .nav-link:hover{
-    color: #f1c412!important;
+    color: #036494!important;
     font-size: 16pt!important;
 }
 
@@ -39,7 +60,7 @@ header{
 }
 
 .dropdown-item:hover{
-    color: #f1c412!important;
+    color: #004a6f!important;
     background-color: transparent!important;
 }
 
@@ -52,25 +73,25 @@ header{
 }
 
 .yellow{
-    color: #f1c412;
+    color: white;
 }
 
 .btn-buscar{
-    background-color: #f1c412;
-    color: black;
+    background-color: #004a6f;
+    color: white;
     font-weight: 700;
     transition: 0.3s;
 }
 
 .btn-buscar:hover{
-    background-color: black;
-    color: #f1c412;
+    background-color: white;
+    color: #004a6f;
     font-weight: 700;
 }
 
 .btn-more{
-    background-color: #f1c412;
-    color: black;
+    background-color: #004a6f;
+    color: white;
     font-weight: 700;
     width: 100%;
     margin-top: 10px;
@@ -78,13 +99,13 @@ header{
 }
 
 .btn-more:hover{
-    background-color: black;
-    color: #f1c412;
+    background-color: white;
+    color: #004a6f;
     font-weight: 700;
 }
 form{
     margin-top: 10px;
-    background-color: rgba(110, 110, 110, 0.582);
+    background-color: rgba(110, 110, 110, 0.678);
     padding: 10px;
     border-radius: 8px;
     width: 80%;
@@ -108,5 +129,16 @@ form option{
 
     .card{
         margin-top: 20px;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    header, .divisor{
+        height: 110vh;
+        background-image: url(../img/bg.png);
+        background-size: cover;
+        background-position: center;
     }
 }

@@ -10,10 +10,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./src/css/style.css">
+        
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     </head>
   <body>
-
     <header>
+        <div class="d-flex justify-content-end" id="black">
+          <p><i class="fab fa-whatsapp"></i> (11) 98335-4324 | <i class="fas fa-phone"></i> (11) 4412-7629 | <i class="far fa-envelope"></i> contato@imobiliaria.com.br</p>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <a class="navbar-brand" href="#"><img src="./src/img/logo.png" alt="" width="170px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,27 +28,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Imoveis
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./imoveis.html">Casas</a>
-                    <a class="dropdown-item" href="./imoveis.html">Apartamentos</a>
-                    <a class="dropdown-item" href="./imoveis.html">Chácara</a>
-                    <a class="dropdown-item" href="./imoveis.html">Fazenda</a>
-                    <a class="dropdown-item" href="./imoveis.html">Galpão</a>
-                    <a class="dropdown-item" href="./imoveis.html">Terrenos</a>
-                    <a class="dropdown-item" href="./imoveis.html">Sala comercial</a>
-                  </div>
+                  <a class="nav-link" href="./index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./simulacao.html">Simulação</a>
+                  <a class="nav-link" href="./sobre.html">A Imobiliaria</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contato.html">Contato</a>
+                  <a class="nav-link" href="./imoveis.html">Venda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./imoveis.html">Aluguel</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./imoveis.html">Lançamentos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./blog.html">blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
                 </li>
               </ul>
             </div>
@@ -107,7 +110,7 @@
 
     <main>
       <div class="container-fluid">
-        <h2 class="yellow mt-4">Casas</h2>
+        <h2 class="yellow mt-4">LANÇAMENTOS</h2>
         <div class="row">
           <div class="col-md-3">
             <div class="card">
@@ -162,12 +165,72 @@
           </div>
           </div>
         </div>
-        <a class="btn btn-more" href="">Ver mais</a>
+        <a class="btn btn-more" href="">Ver todos</a>
 
       </div>
 
       <div class="container-fluid">
-        <h2 class="yellow mt-4">Apartamentos</h2>
+        <h2 class="yellow mt-4">IMÓVEIS A VENDA</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+            <img src="./src/img/example.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Casa em São Paulo</h5>
+              <h6>R$200.000,00</h6>
+              <p class="card-text">Ótima casa em são paulo, perto do centro.</p>
+              <div class="d-flex justify-content-center">
+                <a href="./saibamais.html" class="btn btn-buscar">saber mais</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+            <img src="./src/img/example.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Casa em São Paulo</h5>
+              <h6>R$200.000,00</h6>
+              <p class="card-text">Ótima casa em são paulo, perto do centro.</p>
+              <div class="d-flex justify-content-center">
+                <a href="./saibamais.html" class="btn btn-buscar">saber mais</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+            <img src="./src/img/example.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Casa em São Paulo</h5>
+              <h6>R$200.000,00</h6>
+              <p class="card-text">Ótima casa em são paulo, perto do centro.</p>
+              <div class="d-flex justify-content-center">
+                <a href="./saibamais.html" class="btn btn-buscar">saber mais</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+            <img src="./src/img/example.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Casa em São Paulo</h5>
+              <h6>R$200.000,00</h6>
+              <p class="card-text">Ótima casa em são paulo, perto do centro.</p>
+              <div class="d-flex justify-content-center">
+                <a href="./saibamais.html" class="btn btn-buscar">saber mais</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <a class="btn btn-more" href="">Ver todos</a>
+
+      </div>
+
+      <div class="container-fluid">
+        <h2 class="yellow mt-4">IMÓVEIS PARA LOCAÇÃO</h2>
         <div class="row">
           <div class="col-md-3">
             <div class="card">
@@ -222,8 +285,140 @@
           </div>
           </div>
         </div>
-        <a class="btn btn-more" href="">Ver mais</a>
+        <a class="btn btn-more" href="">Ver todos</a>
       </div>
+
+      <div class="divisor">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5 d-flex justify-content-center">
+              <form>
+                <h2 class="yellow">Quer anunciar aqui?</h2>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" class="form-control" id="telefone">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="valor">valor</label>
+                    <input type="text" class="form-control" id="valor">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="tipo_imovel">Qual o tipo do seu Imóvel?</label>
+                    <select id="tipo_imovel" class="form-control">
+                      <option>Selecione...</option>
+                      <option>Casas</option>
+                      <option>Apartamentos</option>
+                      <option>Chácara</option>
+                      <option>Fazenda</option>
+                      <option>Galpão</option>
+                      <option>Terrenos</option>
+                      <option>Sala comercial</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="oferta_imovel">Qual seu interesse?</label>
+                    <select id="oferta_imovel" class="form-control">
+                      <option>Selecione...</option>
+                      <option>Venda</option>
+                      <option>Locação</option>
+                      <option>Locação Temporada</option>
+                      <option>Permuta</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-buscar">Solicitar Contato</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <h2 class="yellow mt-4">DEPOIMENTOS</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sonia Braga</h5>
+              <p class="card-text">Ótimo atendimento, muito bom! recomendo a todos.</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sonia Braga</h5>
+              <p class="card-text">Ótimo atendimento, muito bom! recomendo a todos.</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sonia Braga</h5>
+              <p class="card-text">Ótimo atendimento, muito bom! recomendo a todos.</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sonia Braga</h5>
+              <p class="card-text">Ótimo atendimento, muito bom! recomendo a todos.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-5 mb-4" id="contato">
+        <div class="row justify-content-center">
+          <div class="col-md-4 d-flex flex-column justify-content-center">
+            <h1 class="yellow">Endereços</h1>
+            <h5 class="yellow">Av. Sete de Setembro, 1534, Centro</h5>
+            <h5 class="yellow">Araranguá-SC</h5>
+
+            <h1 class="yellow">Atendimento</h1>
+            <h5 class="yellow">Seg a Sex: 08:30hs às 12hs | 13:30hs às 18hs</h5>
+            <h5 class="yellow">Sáb: 08:30hs às 12hs</h5>
+          </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <form>
+                    <h2 class="yellow">Formulario de contato</h2>
+                    <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="nome">Nome:</label>
+                            <input type="text" class="form-control" id="nome">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="telefone">Telefone:</label>
+                            <input type="text" class="form-control" id="telefone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Mensagem</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-buscar">Enviar</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
     </main>
 
         <!-- Footer -->
@@ -259,7 +454,7 @@
             <a href="./simulacao.html" class="text-white">Simulação</a>
           </li>
           <li>
-            <a href="./contato.html" class="text-white">Contato</a>
+            <a href="#contato" class="text-white">Contato</a>
           </li>
         </ul>
 
