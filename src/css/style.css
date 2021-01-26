@@ -36,7 +36,7 @@ header, .divisor{
   }
   
   ::-webkit-scrollbar-thumb:vertical {
-    background-color: #ffffff;
+    background-color: #ffef14;
     -webkit-border-radius: 6px;
   }
 
